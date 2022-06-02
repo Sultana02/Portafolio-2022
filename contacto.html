@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+
+    <link rel="stylesheet" href="Style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/e76b8be548.js" crossorigin="anonymous"></script>
+</head>
+<body id="body">
+    <div class="flex-container">
+        <nav class="nav-main">
+            <img src="IMG/—Pngtree—vector programming icon_4102520.png" alt="Logo Portafolio" class="nav-brand">
+            <!--Crea Menu-->
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Acerca.html">Sobre mi</a></li>
+                <li><a href="proyectos.html">Proyectos</a></li>
+                <li><a href="">Contacto</a></li>
+            </ul>
+            
+        </nav>
+        <hr>
+    </div>
+    <!--Fondo de Contacto-->
+    <header class="contact" >
+        <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/brands.js" integrity="sha384-sCI3dTBIJuqT6AwL++zH7qL8ZdKaHpxU43dDt9SyOzimtQ9eyRhkG3B7KMl6AO19" crossorigin="anonymous"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
+
+        <section class="fondo-Contacto">
+            <div class="contact-content">
+                <h3>Contactar</h3>
+                <div class="divider"><hr class="lh"></div>
+                <form id="form" action="https://formspree.io/f/mnqwwnqw" method="POST" class="form">
+                      
+                    <label for="name">Nombre Completo<span>*</span></label>
+                    <input required type="text" name="name" placeholder="Name">
+
+                    <label for="email">Correo Electrónico <span>*</span></label>
+                    <input required type="email" name="email" placeholder="example@gmail.com">
+
+                    <label for="message">Mensaje</label>
+                    <textarea name="message" cols="15" rows="5"> </textarea>
+
+                    <input type="submit" value="Enviar" class="boton">
+                </form>
+            </div>
+            <!--Menu Iconos-->
+            <footer class="menu_des" >
+                <div class="social">
+                    <i class="fas fa-bars" title="Menu" id="btn_open"></i>
+                </div>
+                
+                <!--Logo de página-->
+                <div class="menu__side" id="menu_side">
+                    <div class="name__page">  
+                        <i class="fab fa-apple" title="Mis redes"></i>
+                        <h4>Mis Redes</h4>
+                    </div>
+
+
+                    <!--Menu principal de redes-->
+                    <div class="options__menu">
+
+                        <!--Email-->
+                        <a href="#" class="select">
+                            <div class="option">
+                                <input type="checkbox" id="emergente-btn">
+                                <label for="emergente-btn" class="lbl-emergente">
+                                    <i class="far fa-address-book" title="e-mail"></i>
+                                </label>
+                                <input type="checkbox" id="emergente-btn">
+                                <label for="emergente-btn" class="lbl-emergente">
+                                    <h4>E-mail</h4>
+                                </label>
+                       
+                                <!--Ventana emergente-->
+                               <div class="emergente_container">
+                                   <div class="container_email">
+                                       <header>Mis Correos</header>
+                                       <label for="emergente-btn"><i class="gg-close-r"></i></label>
+
+                                       <div class="texto-emergente">
+                                            <p>priscii02@live.com<br> 
+                                                priscii.son@gmail.com
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+
+                        <!--Discord-->
+                        <a href="#">
+                            <div class="option">
+                                <input type="checkbox" id="ventana-btn">
+                                <label for="ventana-btn" class="lbl-ventana">
+                                    <i class="fab fa-discord" title="Discord"></i>
+                                </label> 
+                                <input type="checkbox" id="ventana-btn">
+                                <label for="ventana-btn" class="lbl-ventana">
+                                    <h4>Discord</h4>
+                                </label>
+                                
+                                <!--ventana de comentario-->
+                                <div class="modal-container">
+                                    <div class="container-discord">
+                                        <header>Mi Discord</header>
+                                        <!--Boton X-->
+                                        <label for="ventana-btn">
+                                            <i class="gg-close-r"></i>
+                                        </label>
+
+                                        <div class="modal-textos">
+                                            <p>Priscila Fernandez#6202</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+
+                        <!--Github-->
+                        <a href="https://github.com/Sultana02">
+                            <div class="option">
+                                <i class="fab fa-github" title="Github"></i>
+                                <h4>Github</h4>
+                            </div>
+                        </a>
+                        <!--Linkedin-->
+                        <a href="https://www.linkedin.com/in/priscila-ruth-fernandez/">
+                            <div class="option">
+                                <i class="fab fa-linkedin" title="Linkedin"></i>
+                                <h4>Linkedin</h4>
+                            </div>
+                        </a>
+                        <!--Instagram-->
+                        <a href="https://www.instagram.com/magnificent_century2020/">
+                            <div class="option">
+                                <i class="fab fa-instagram" title="Instagram"></i>
+                                <h4>Instagram</h4>
+                            </div>
+                        </a>
+                        <!--Facebook-->
+                        <a href="https://www.facebook.com/Prisci.fer04">
+                            <div class="option">
+                                <i class="fab fa-facebook" title="Facebook"></i>
+                                <h4>Facebook</h4>
+                            </div>
+                        </a>
+                        
+                    </div>
+                </div>
+            </footer>   
+            
+        </section>
+        <script src="app.js"> </script>
+    </header>
+</body>
+</html>
